@@ -1,0 +1,110 @@
+.App{
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-weight: 500;
+}
+.App-header{
+  padding: 20px;
+  font-size: 22px;
+}
+.App-container{
+  width: 80%;
+}
+.sectionContainer{
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+ 
+}
+.sectionLeft {
+  width:50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sectionRight{
+    width:50%; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.marginleft{
+  margin-left: 10px;
+}
+.marginright{
+  margin-right: 10px;
+}
+
+.submitName{
+ cursor: pointer; 
+}
+input[type="text"]:disabled{
+  border: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height:2em;
+}
+
+.input{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height:2em;
+}
+.input-span{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.switch{
+  height: 20px;
+  width: 20px;
+  color:rgb(68, 53, 53);
+  border-radius: 50%;
+}
+.Submit-button{
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #8a3c9d;
+  color: white;
+  border: none;
+  width: 300px;
+  border-radius: 5px;
+}
+.Submit-button:hover{
+   box-shadow: 3px 10px 24px -15px rgb(6, 6, 6);;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover + .tooltiptext {
+  visibility: visible;
+  margin-top:50px ;
+  background-color: rgba(147, 141, 141, 0.8);
+  font-size: 12px;
+  font-weight: 300;
+}
